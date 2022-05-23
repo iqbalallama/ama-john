@@ -1,0 +1,17 @@
+.products-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap:15px;
+}
+.products{
+    background-color: aqua;
+}
+.order{
+    background-color: goldenrod;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:15px;
+    
+}
